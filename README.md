@@ -1,5 +1,7 @@
 # Modulo Relay
 
+![Relay Module](https://images.cooltext.com/5648706.png)
+
 ![Relay module image](module.png)
 
 Relay, Relevador o retransmisor
@@ -30,7 +32,7 @@ El pin NO se utiliza con la salida electrica que permanecerá cuando el pin IN r
 
 El *Relay module* funciona como un interruptor electrónico, posee un pin de entrada **IN** que al alternar su voltaje cambia el sentido del interruptor a traves de sus pines de salida **NC** y **NO**.
 
-Al conectar un microcontrolador podemos controlar la señal electrica que enviamos al modulo de **relay** para alternar entre el estado de uno o de otro de los dispositivos conectados, considerando que la fuente de eergía puede ser independiente a la fuente del microcontrolador, esta tendrá siempre una salida de corriente que estará alimentando a un dispositivo.
+Al conectar un microcontrolador podemos controlar la señal electrica que enviamos al modulo de **relay** para alternar entre el estado de uno o de otro de los dispositivos conectados, considerando que la fuente de energía puede ser independiente a la fuente del microcontrolador, esta tendrá siempre una salida de corriente que estará alimentando a un dispositivo.
 
 ---
 
@@ -40,4 +42,10 @@ Veremos un ejemplo de ambos casos.
 
 ### Caso NO
 ![RelayNO](RelayNO.png)
-En este ejemplo, 
+
+En este ejemplo, la señal permanece constante en el pin **IN**, así pues el pin que emite señal es la salida **NO** (Normalmente Abierta), que se muestra con el LED Verde encendido y el amarillo carece de alimentación.
+
+### Caso NC
+![RelayNC](RelayNC.png)
+
+En el segundo caso, el pin **IN** carece de señal (También podría ser un voltaje muy bajo). Por lo tanto la fuente de energía pasa al pin **NC** o Normalmente Cerrado, iluminando asi el LED amarillo.
