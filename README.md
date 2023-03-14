@@ -19,7 +19,9 @@ Relay, Relevador o retransmisor
 
 El pin IN recibe la señal de un interruptor o en este caso el microcontrolador.
 
-El pin NC se utiliza con la señal que se mantendra cuando el pin IN no reciba señal.
+El pin NC se utiliza con la salida que se mantendra cuando el pin IN no reciba señal.
+
+El pin NO se utiliza con la salida electrica que permanecerá cuando el pin IN registre una señal eléctrica.
 
 ---
 
@@ -28,3 +30,14 @@ El pin NC se utiliza con la señal que se mantendra cuando el pin IN no reciba s
 
 El *Relay module* funciona como un interruptor electrónico, posee un pin de entrada **IN** que al alternar su voltaje cambia el sentido del interruptor a traves de sus pines de salida **NC** y **NO**.
 
+Al conectar un microcontrolador podemos controlar la señal electrica que enviamos al modulo de **relay** para alternar entre el estado de uno o de otro de los dispositivos conectados, considerando que la fuente de eergía puede ser independiente a la fuente del microcontrolador, esta tendrá siempre una salida de corriente que estará alimentando a un dispositivo.
+
+---
+
+## Demostración
+
+Veremos un ejemplo de ambos casos.
+
+### Caso NO
+![RelayNO](RelayNO.png)
+En este ejemplo, 
