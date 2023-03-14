@@ -2,9 +2,11 @@
 
 ![Relay Module](https://images.cooltext.com/5648706.png)
 
+![cooltext](https://cooltext.com/images/ct_pixel.gif)
+
 ![Relay module image](module.png)
 
-Relay, Relevador o retransmisor
+*Relay, Relevador o retransmisor*
 
 ---
 
