@@ -1,8 +1,6 @@
 # Modulo Relay
 
-![Relay Module](https://images.cooltext.com/5648706.png)
-
-![](https://images.cooltext.com/5508554.png)<a href="http://es.cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Generador de Logotipos y Gráficos." border="0" /></a>
+![Relay Module](https://images.cooltext.com/5648706.png)<a href="http://es.cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Generador de Logotipos y Gráficos." border="0" /></a>
 
 ![Relay module image](module.png)
 
