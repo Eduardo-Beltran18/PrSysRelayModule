@@ -27,7 +27,6 @@ El pin NO se utiliza con la salida electrica que permanecerá cuando el pin IN r
 
 ---
 
-
 ## Operación
 
 El *Relay module* funciona como un interruptor electrónico, posee un pin de entrada **IN** que al alternar su voltaje cambia el sentido del interruptor a traves de sus pines de salida **NC** y **NO**.
@@ -36,16 +35,22 @@ Al conectar un microcontrolador podemos controlar la señal electrica que enviam
 
 ---
 
-## Demostración
+## Casos Simulados
 
-Veremos un ejemplo de ambos casos.
+Ejemplo de casos de variación de voltaje.
 
-### Caso NO
+### 1. NO
+
 ![RelayNO](RelayNO.png)
 
 En este ejemplo, la señal permanece constante en el pin **IN**, así pues el pin que emite señal es la salida **NO** (Normalmente Abierta), que se muestra con el LED Verde encendido y el amarillo carece de alimentación.
 
-### Caso NC
+### 2. NC
+
 ![RelayNC](RelayNC.png)
 
 En el segundo caso, el pin **IN** carece de señal (También podría ser un voltaje muy bajo). Por lo tanto la fuente de energía pasa al pin **NC** o Normalmente Cerrado, iluminando asi el LED amarillo.
+
+## Simulacion con microPython
+
+[Relay controll with Pico W](https://wokwi.com/projects/360388936971748353)
